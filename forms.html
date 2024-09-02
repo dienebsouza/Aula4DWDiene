@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--get - aparece na url-->
+    <!--método post não mostra na url-->
+    <form action="dados.html" method="get">
+    <!--id - identificador - como se fosse o seu cpf-->
+        <p>Nome: <input type="text" id="nm"></p>
+        <p>Senha: <input type="password" id="senha"></p></p>
+
+        <!--value - texto que aparece no botão-->
+        <input type="submit" id="enviar" value="Enviar">
+        <input type="reset" id="limpar" value="Limpar">
+    </form>
+
+    <!--RADIO (BOLINHA)-->
+    <p>
+        <label>Cor:</label> <br>
+        <!--colocando todos os radio com mesmo name, só uma bolinha poderá ser marcada-->
+        <input type="radio" name="cor" value="azul">
+        Azul <br>
+        <input type="radio" name="cor" value="branco">
+        Branca <br>
+    </p>
+    
+    <p>
+        <label>Tamanho:</label> <br>
+        <input type="radio" name="tamanho" value="pequena">
+        P <br>
+        <input type="radio" name="tamanho" value="media">
+        M <br>
+        <input type="radio" name="tamanho" value="grande">
+        G <br>
+    </p>
+    
+    <!--CHECKBOX-->
+    <p>Quais cores de sapato você prefere?</p>
+    <input checked type="checkbox" name="sapatos" value="preto">
+    Preto <br>
+    <input type="checkbox" name="sapatos" value="branco">
+    Branco <br>
+    <input type="checkbox" name="sapatos" value="cinza">
+    Cinza <br>
+    <input type="checkbox" name="sapatos" value="marrom">
+    Marrrom <br>
+
+</body>
+</html>
